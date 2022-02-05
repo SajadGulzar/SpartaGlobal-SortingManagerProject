@@ -1,4 +1,4 @@
-package com.spartaglobal.sortManager;
+package com.spartaglobal.sortManager.Model;
 
 import java.util.Random;
 

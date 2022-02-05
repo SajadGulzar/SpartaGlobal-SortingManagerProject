@@ -1,4 +1,8 @@
-package com.spartaglobal.sortManager;
+package com.spartaglobal.sortManager.Controller;
+
+import com.spartaglobal.sortManager.Model.BubbleSort;
+import com.spartaglobal.sortManager.Model.MergeSort;
+import com.spartaglobal.sortManager.Model.Sorter;
 
 public class SortManager {
     public static Sorter getSorter(int sorterNumber) {

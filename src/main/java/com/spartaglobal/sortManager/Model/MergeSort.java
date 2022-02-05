@@ -1,4 +1,4 @@
-package com.spartaglobal.sortManager;
+package com.spartaglobal.sortManager.Model;
 
 public class MergeSort implements Sorter{
     public int[] sort(int[] arrayToSort) {
