@@ -36,7 +36,8 @@ After you have selected the numbers you will be then be asked what sorting algor
 
 Following your selections, you will be provided with:
 
-    1) The name of the sort
-    2) A copy of the array before being sorted
-    3) A copy of the array after it has been sorted 
-    4) The total time it took to sort the array in nanoseconds (with additional breakdowns in milliseconds and seconds)
+1) The name of the sort
+2) A copy of the array before being sorted
+3) A copy of the array after it has been sorted 
+4) The total time it took to sort the array in nanoseconds (with additional breakdowns in milliseconds and seconds)
+   
