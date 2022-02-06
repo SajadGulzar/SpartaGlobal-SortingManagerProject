@@ -1,5 +1,7 @@
 package com.spartaglobal.sortManager.Model;
 
+import com.spartaglobal.sortManager.View.ValueNotFoundException;
+
 public class BubbleSort implements Sorter {
 
     @Override
@@ -8,8 +10,8 @@ public class BubbleSort implements Sorter {
         }
 
         @Override
-        public int getLeft(int element)  {
-            return 0;
+        public int getLeft(int element) throws ValueNotFoundException {
+        return 0;
         }
 
         public int[] sortArray(int[] randomArray) {
