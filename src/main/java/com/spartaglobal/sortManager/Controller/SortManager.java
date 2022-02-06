@@ -1,5 +1,6 @@
 package com.spartaglobal.sortManager.Controller;
 
+import com.spartaglobal.sortManager.Model.BinaryTree.BinaryTreeSort;
 import com.spartaglobal.sortManager.Model.BubbleSort;
 import com.spartaglobal.sortManager.Model.MergeSort;
 import com.spartaglobal.sortManager.Model.Sorter;
@@ -12,7 +13,8 @@ public class SortManager {
 
         return switch (sorterNumber) {
             case 1 -> new BubbleSort();
-            case 2 -> new MergeSort();
+            case 2 -> new BinaryTreeSort();
+            case 3 -> new MergeSort();
             default -> null;
         };
     }

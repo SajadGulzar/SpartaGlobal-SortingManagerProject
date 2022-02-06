@@ -10,9 +10,10 @@ public class QuestionTwo {
 
         System.out.println("\nNow enter your sort preference: \n" +
                 "1) Bubble Sort \n" +
-                "2) Merge Sort\n");
+                "2) Binary Sort \n" +
+                "3) Merge Sort\n");
         do {
-            System.out.print("\nPlease choose a number from 1 to 2 as outlined: ");
+            System.out.print("\nPlease choose a number from 1 to 3 as outlined: ");
             while (!scanner.hasNextInt()) {
                 String input = scanner.next();
                 System.out.printf("\n \"%s\" is not a valid choice. Please try again: ", input);
