@@ -4,8 +4,8 @@ import com.spartaglobal.sortManager.Model.BinaryTree.BinaryTreeSort;
 import com.spartaglobal.sortManager.Model.BubbleSort;
 import com.spartaglobal.sortManager.Model.MergeSort;
 import com.spartaglobal.sortManager.Model.Sorter;
+import org.apache.log4j.Logger;
 
-import java.util.logging.Logger;
 
 public class SortManager {
     public static Logger logger = Logger.getLogger("Sort Manager Logger");
