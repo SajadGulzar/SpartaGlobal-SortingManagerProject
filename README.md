@@ -20,7 +20,7 @@ There is a random number generator that can generate a specified amount of numbe
 
 ### Using the Sort Manager:
 
-To use Sort Manager program, clone a copy to your machine locally. Run the 'RunApp' file to run the program. 
+To use the Sort Manager program, clone a copy to your machine locally. Run the 'RunApp' file to run the program. 
 
 You will be met with a question asking how many random numbers you would like to sort and fill your array with. 
 
