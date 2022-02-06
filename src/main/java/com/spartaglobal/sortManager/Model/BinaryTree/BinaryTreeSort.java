@@ -1,7 +1,7 @@
 package com.spartaglobal.sortManager.Model.BinaryTree;
 
 import com.spartaglobal.sortManager.Model.Sorter;
-import com.spartaglobal.sortManager.View.ValueNotFoundException;
+import com.spartaglobal.sortManager.Model.ValueNotFoundException;
 
 public class BinaryTreeSort implements Sorter, BinaryTreeInterface {
     private Node rootNode;

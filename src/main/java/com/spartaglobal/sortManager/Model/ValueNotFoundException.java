@@ -1,4 +1,4 @@
-package com.spartaglobal.sortManager.View;
+package com.spartaglobal.sortManager.Model;
 
 public class ValueNotFoundException extends Exception {
     public ValueNotFoundException() {

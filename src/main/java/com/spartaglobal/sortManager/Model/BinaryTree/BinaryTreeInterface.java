@@ -1,6 +1,6 @@
 package com.spartaglobal.sortManager.Model.BinaryTree;
 
-import com.spartaglobal.sortManager.View.ValueNotFoundException;
+import com.spartaglobal.sortManager.Model.ValueNotFoundException;
 
 public interface BinaryTreeInterface {
     int getRootElement();

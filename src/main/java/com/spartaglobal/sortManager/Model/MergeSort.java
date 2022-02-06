@@ -1,7 +1,5 @@
 package com.spartaglobal.sortManager.Model;
 
-import com.spartaglobal.sortManager.View.ValueNotFoundException;
-
 public class MergeSort implements Sorter{
     public int[] sort(int[] arrayToSort) {
         mergeSort(arrayToSort,0,arrayToSort.length - 1);

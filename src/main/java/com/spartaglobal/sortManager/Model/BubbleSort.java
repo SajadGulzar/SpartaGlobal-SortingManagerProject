@@ -1,7 +1,5 @@
 package com.spartaglobal.sortManager.Model;
 
-import com.spartaglobal.sortManager.View.ValueNotFoundException;
-
 public class BubbleSort implements Sorter {
 
     @Override
